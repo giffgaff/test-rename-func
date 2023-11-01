@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-rename-func"
+  description: "test-rename-func"
+  annotations:
+    github.com/project-slug: giffgaff/test-rename-func
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/sre"
